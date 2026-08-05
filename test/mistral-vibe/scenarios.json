@@ -1,0 +1,8 @@
+{
+    "mistral-vibe": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "mistral-vibe": {}
+        }
+    }
+}

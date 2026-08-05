@@ -1,0 +1,13 @@
+{
+    "name": "Mistral Vibe CLI",
+    "id": "mistral-vibe",
+    "version": "1.0.0",
+    "description": "Installs Mistral Vibe CLI",
+    "options": {
+
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/gplassard/devcontainers-features/uv:1"
+    ]
+}
