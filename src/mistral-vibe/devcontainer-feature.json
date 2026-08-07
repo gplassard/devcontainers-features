@@ -4,10 +4,16 @@
     "version": "1.0.0",
     "description": "Installs Mistral Vibe CLI",
     "options": {
-
+        "version": {
+            "type": "string",
+            "default": "",
+            "description": "Select the version to install"
+        }
     },
     "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils",
-        "ghcr.io/gplassard/devcontainers-features/uv:1"
-    ]
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "dependsOn": {
+        "ghcr.io/devcontainers/features/python:1": {}
+    }
 }

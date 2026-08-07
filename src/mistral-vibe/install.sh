@@ -10,7 +10,15 @@ uv --version
 
 echo "Activating feature 'mistral-vibe'"
 
-uv tool install "mistral==2.24.0"
+export UV_TOOL_BIN_DIR=/usr/local/bin
+
+if [ -n "${VERSION:-}" ]; then
+    echo "Installing Mistral Vibe version: $VERSION"
+    uv tool install "mistral-vibe==$VERSION"
+else
+    echo "Installing latest Mistral Vibe"
+    uv tool install mistral-vibe
+fi
 
 echo "Verifying installation..."
 vibe --version
