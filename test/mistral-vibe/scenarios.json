@@ -1,8 +1,10 @@
 {
-    "mistral-vibe": {
+    "version": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "mistral-vibe": {}
+            "mistral-vibe": {
+                "version": "2.24.0"
+            }
         }
     }
 }
