@@ -13,9 +13,6 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
-          - uv
           - mistral-vibe
         baseImage:
           - debian:latest
@@ -36,9 +33,6 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
-          - uv
           - mistral-vibe
     steps:
       - uses: actions/checkout@v4
