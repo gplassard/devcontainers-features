@@ -1,0 +1,9 @@
+{
+    "name": "uv",
+    "id": "uv",
+    "version": "1.0.0",
+    "description": "Installs uv, a Python package and project manager written in Rust.",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
