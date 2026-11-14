@@ -13,7 +13,6 @@ jobs:
     strategy:
       matrix:
         features:
-          - mistral-vibe
           - uv
         baseImage:
           - debian:latest
