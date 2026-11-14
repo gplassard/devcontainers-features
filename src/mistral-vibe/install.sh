@@ -17,7 +17,7 @@ export UV_PYTHON_INSTALL_DIR="/usr/local/share/uv/python"
 
 TMP_CONSTRAINTS="/tmp/vibe-constraints.txt"
 uv export --directory "$FEATURE_DIR" --frozen --no-emit-project > "$TMP_CONSTRAINTS"
-uv tool install --constraints "$TMP_CONSTRAINTS" mistral-vibe
+uv tool install --python 3.13 --constraints "$TMP_CONSTRAINTS" mistral-vibe
 rm -f "$TMP_CONSTRAINTS"
 
 # Ensure world-readable permissions on installed tools and python runtime
