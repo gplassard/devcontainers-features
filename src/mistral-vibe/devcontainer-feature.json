@@ -3,9 +3,6 @@
     "id": "mistral-vibe",
     "version": "1.0.0",
     "description": "Installs Mistral Vibe CLI",
-    "dependsOn": {
-        "./uv": {}
-    },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
         "ghcr.io/devcontainers/features/python",
