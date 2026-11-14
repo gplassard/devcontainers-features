@@ -1,10 +1,23 @@
 {
-    "version": {
+    "test_mistral_vibe_debian": {
+        "image": "debian:latest",
+        "features": {
+            "uv": {},
+            "mistral-vibe": {}
+        }
+    },
+    "test_mistral_vibe_ubuntu": {
+        "image": "ubuntu:latest",
+        "features": {
+            "uv": {},
+            "mistral-vibe": {}
+        }
+    },
+    "test_mistral_vibe_devcontainers_base": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "mistral-vibe": {
-                "version": "2.24.0"
-            }
+            "uv": {},
+            "mistral-vibe": {}
         }
     }
 }
